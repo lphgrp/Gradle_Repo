@@ -1,12 +1,12 @@
 pipeline {
 	agent any
 	stages {
-		stage ("--Clean Project---") {
+		stage ("-Build_Project-") {
 			steps {
 				bat "gradlew build"
 			}
 		}
-		stage ("--Create WarFile---") {
+		stage ("-Run_Project-") {
 			steps {
 				bat "gradlew run"
 			}
