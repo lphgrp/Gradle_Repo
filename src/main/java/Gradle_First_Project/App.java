@@ -5,7 +5,7 @@ package Gradle_First_Project;
 
 public class App {
     public String getGreeting() {
-        return "Hello world.";
+        return "Gradle Job Done";
     }
 
     public static void main(String[] args) {
